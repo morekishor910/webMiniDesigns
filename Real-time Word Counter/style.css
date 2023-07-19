@@ -1,0 +1,34 @@
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  font-family: cursive;
+}
+
+.container {
+  background-color: rgb(255, 200, 19);
+  padding: 20px;
+  border-radius: 10px;
+  display: block;
+  margin: 5px;
+  box-shadow: 0px 4px, 8px, rgba(0, 0, 0, 0.7);
+}
+
+.textarea {
+  background-color: aliceblue;
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+  font-family: cursive;
+  font-size: 18px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: solid 2px darkgray;
+}
+
+.counter-container {
+}

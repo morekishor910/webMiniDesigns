@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Details</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="now-showing.html">Now Showing</a></li>
+          <li><a href="submit.html">Book Tickets</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form id="signup-form">
+      <label for="reg-id">Registration ID*:</label>
+      <input
+        type="text"
+        id="reg-id"
+        name="reg-id"
+        required
+        placeholder="Enter registration ID"
+      />
+
+      <label for="username">Username*:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        required
+        placeholder="Enter username"
+      />
+
+      <label for="password">Password*:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+        placeholder="Enter password"
+      />
+
+      <label for="email">Email*:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        placeholder="Enter email"
+      />
+
+      <label for="mobile">Mobile Number*:</label>
+      <input
+        type="tel"
+        id="mobile"
+        name="mobile"
+        required
+        placeholder="Enter mobile number"
+      />
+
+      <label for="dob">Date of Birth*:</label>
+      <input
+        type="text"
+        id="dob"
+        name="dob"
+        required
+        placeholder="Enter date of birth (DDMMYYYY)"
+      />
+      <center>
+        <button id="btn2" type="button" onclick="resetForm()">Cancel</button>
+        <a href="booking.html">
+          <button id="btn1" type="submit">Submit</button>
+        </a>
+      </center>
+    </form>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
